@@ -23,6 +23,8 @@ git clone https://github.com/xuyisu/fw-boot-admin-eureka.git
 ![login图](images/login.png)
 5. 登陆完成之后，进入监控的信息页面
 ![admin图](images/admin.png)
+6. 可以看到具体的监控信息,如机器配置信息、请求路径、jvm等信息
+![监控图](images/jk.png)
 #### 说明
 1. fw-admin-eureka中添加了邮件的配置，主要的pom内容如下
 ``` pom
