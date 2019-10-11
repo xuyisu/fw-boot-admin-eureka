@@ -1,0 +1,57 @@
+2019-10-11 09:55:51 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d0da6696] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-11 09:55:51 INFO  main com.yisu.service.FwServiceAApplication No active profile set, falling back to default profiles: default
+2019-10-11 09:55:52 INFO  main org.springframework.cloud.context.scope.GenericScope BeanFactory id=2e4dc636-f07a-3a3a-8f91-e5c77388acf6
+2019-10-11 09:55:52 INFO  main org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d0da6696] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-11 09:55:52 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat initialized with port(s): 8764 (http)
+2019-10-11 09:55:53 INFO  main org.apache.coyote.http11.Http11NioProtocol Initializing ProtocolHandler ["http-nio-8764"]
+2019-10-11 09:55:53 INFO  main org.apache.catalina.core.StandardService Starting service [Tomcat]
+2019-10-11 09:55:53 INFO  main org.apache.catalina.core.StandardEngine Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-11 09:55:53 INFO  main org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring embedded WebApplicationContext
+2019-10-11 09:55:53 INFO  main org.springframework.web.context.ContextLoader Root WebApplicationContext: initialization completed in 1477 ms
+2019-10-11 09:55:53 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-11 09:55:53 INFO  main com.netflix.config.DynamicPropertyFactory DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@73041b7d
+2019-10-11 09:55:57 INFO  main com.netflix.config.sources.URLConfigurationSource To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-10-11 09:55:58 INFO  main org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-11 09:55:58 INFO  main org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver Exposing 19 endpoint(s) beneath base path '/actuator'
+2019-10-11 09:55:58 INFO  main org.springframework.cloud.netflix.eureka.InstanceInfoFactory Setting initial instance status as: STARTING
+2019-10-11 09:55:58 INFO  main com.netflix.discovery.DiscoveryClient Initializing Eureka in region us-east-1
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON encoding codec LegacyJacksonJson
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.provider.DiscoveryJerseyProvider Using JSON decoding codec LegacyJacksonJson
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML encoding codec XStreamXml
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.provider.DiscoveryJerseyProvider Using XML decoding codec XStreamXml
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Disable delta property : false
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Single vip registry refresh property : null
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Force full registry fetch : false
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Application is null : false
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Registered Applications size is zero : true
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Application version is -1: true
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Getting all instance registry info from the eureka server
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient The response status is 200
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Starting heartbeat executor: renew interval is: 30
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.InstanceInfoReplicator InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Discovery Client initialized at timestamp 1570758959740 with initial instances count: 2
+2019-10-11 09:55:59 INFO  main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Registering application FW-SERVICE-A with eureka with status UP
+2019-10-11 09:55:59 INFO  main com.netflix.discovery.DiscoveryClient Saw local status change event StatusChangeEvent [timestamp=1570758959743, current=UP, previous=STARTING]
+2019-10-11 09:55:59 INFO  DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FW-SERVICE-A/BZCKR7HP2.baozun.cn:fw-service-a:8764: registering service...
+2019-10-11 09:55:59 INFO  main org.apache.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8764"]
+2019-10-11 09:55:59 INFO  DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FW-SERVICE-A/BZCKR7HP2.baozun.cn:fw-service-a:8764 - registration status: 204
+2019-10-11 09:55:59 INFO  main org.springframework.boot.web.embedded.tomcat.TomcatWebServer Tomcat started on port(s): 8764 (http) with context path ''
+2019-10-11 09:55:59 INFO  main org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration Updating port to 8764
+2019-10-11 09:55:59 INFO  main com.yisu.service.FwServiceAApplication Started FwServiceAApplication in 9.194 seconds (JVM running for 12.442)
+2019-10-11 09:56:00 INFO  RMI TCP Connection(3)-10.8.35.192 org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-11 09:56:00 INFO  RMI TCP Connection(3)-10.8.35.192 org.springframework.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+2019-10-11 09:56:00 INFO  RMI TCP Connection(3)-10.8.35.192 org.springframework.web.servlet.DispatcherServlet Completed initialization in 7 ms
+2019-10-11 10:00:59 INFO  AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-11 10:05:59 INFO  AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-11 10:10:59 INFO  AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-11 10:15:59 INFO  AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-11 10:20:59 INFO  AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-11 10:25:59 INFO  AsyncResolver-bootstrap-executor-0 com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver Resolving eureka endpoints via configuration
+2019-10-11 10:29:40 INFO  Thread-16 org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry Unregistering application FW-SERVICE-A with eureka with status DOWN
+2019-10-11 10:29:40 INFO  DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FW-SERVICE-A/BZCKR7HP2.baozun.cn:fw-service-a:8764: registering service...
+2019-10-11 10:29:40 INFO  DiscoveryClient-InstanceInfoReplicator-0 com.netflix.discovery.DiscoveryClient DiscoveryClient_FW-SERVICE-A/BZCKR7HP2.baozun.cn:fw-service-a:8764 - registration status: 204
+2019-10-11 10:29:40 INFO  Thread-16 org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-11 10:29:40 INFO  Thread-16 com.netflix.discovery.DiscoveryClient Shutting down DiscoveryClient ...
+2019-10-11 10:29:43 INFO  Thread-16 com.netflix.discovery.DiscoveryClient Unregistering ...
+2019-10-11 10:29:48 INFO  Thread-16 com.netflix.discovery.DiscoveryClient Completed shut down of DiscoveryClient
