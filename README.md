@@ -68,7 +68,8 @@ git clone https://github.com/xuyisu/fw-boot-admin-eureka.git
 ![offline图](images/offline.png)
 
 #### 项目点赞
-如果你用爽了，可以请作者点个start,谢谢
+**如果你用爽了，可以请作者点个start,谢谢**
+![star图](images/star.png)
 
 
 
